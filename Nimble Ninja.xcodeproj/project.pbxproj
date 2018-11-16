@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2603C13210C723A00009537 /* JBHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2603C12210C723A00009537 /* JBHero.swift */; };
+		A2B0FEFB21198E3300E796E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0FEFA21198E3300E796E2 /* Constants.swift */; };
+		A2B0FEFD2119998A00E796E2 /* JBCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0FEFC2119998A00E796E2 /* JBCloudGenerator.swift */; };
+		A2B0FEFF21199CA000E796E2 /* JBCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0FEFE21199CA000E796E2 /* JBCloud.swift */; };
+		A2B0FF022119F0EE00E796E2 /* JBWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0FF012119F0EE00E796E2 /* JBWallGenerator.swift */; };
+		A2B0FF042119F0F900E796E2 /* JBWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0FF032119F0F900E796E2 /* JBWall.swift */; };
+		A2C15629210A2879008AE780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C15628210A2879008AE780 /* AppDelegate.swift */; };
+		A2C1562D210A2879008AE780 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2C1562C210A2879008AE780 /* Actions.sks */; };
+		A2C1562F210A2879008AE780 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1562E210A2879008AE780 /* GameScene.swift */; };
+		A2C15631210A2879008AE780 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C15630210A2879008AE780 /* GameViewController.swift */; };
+		A2C15634210A2879008AE780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C15632210A2879008AE780 /* Main.storyboard */; };
+		A2C15636210A287B008AE780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C15635210A287B008AE780 /* Assets.xcassets */; };
+		A2C15639210A287B008AE780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C15637210A287B008AE780 /* LaunchScreen.storyboard */; };
+		A2CA1F6A210AB2F8004327E4 /* JBMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA1F69210AB2F8004327E4 /* JBMovingGround.swift */; };
+		B0541F15211D281D0070282D /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0541F14211D281D0070282D /* GameConfig.swift */; };
+		B0614AAD211C1E200075EA13 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0614AAC211C1E200075EA13 /* GameOverScene.swift */; };
+		B0614AAF211C1E8C0075EA13 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0614AAE211C1E8C0075EA13 /* GameOverScene.sks */; };
+		B0614AB1211C34360075EA13 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0614AB0211C34360075EA13 /* MainScene.swift */; };
+		B0614AB3211C34590075EA13 /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0614AB2211C34590075EA13 /* MainScene.sks */; };
+		B0A111412122F0E500EA900D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A111402122F0E400EA900D /* WebViewController.swift */; };
+		D9981B13E4292DEB07D7A136 /* Pods_Nimble_Ninja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023CCEC4FBEC28FC114B10AB /* Pods_Nimble_Ninja.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		023CCEC4FBEC28FC114B10AB /* Pods_Nimble_Ninja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimble_Ninja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B6969C99E52F5BBABD82C9 /* Pods-Nimble Ninja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimble Ninja.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nimble Ninja/Pods-Nimble Ninja.debug.xcconfig"; sourceTree = "<group>"; };
+		A2603C12210C723A00009537 /* JBHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBHero.swift; sourceTree = "<group>"; };
+		A2B0FEFA21198E3300E796E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A2B0FEFC2119998A00E796E2 /* JBCloudGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBCloudGenerator.swift; sourceTree = "<group>"; };
+		A2B0FEFE21199CA000E796E2 /* JBCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBCloud.swift; sourceTree = "<group>"; };
+		A2B0FF012119F0EE00E796E2 /* JBWallGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBWallGenerator.swift; sourceTree = "<group>"; };
+		A2B0FF032119F0F900E796E2 /* JBWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBWall.swift; sourceTree = "<group>"; };
+		A2C15625210A2879008AE780 /* Nimble Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C15628210A2879008AE780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2C1562C210A2879008AE780 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A2C1562E210A2879008AE780 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A2C15630210A2879008AE780 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A2C15633210A2879008AE780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C15635210A287B008AE780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2C15638210A287B008AE780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2C1563A210A287B008AE780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CA1F69210AB2F8004327E4 /* JBMovingGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBMovingGround.swift; sourceTree = "<group>"; };
+		B0541F14211D281D0070282D /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		B0614AAC211C1E200075EA13 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		B0614AAE211C1E8C0075EA13 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		B0614AB0211C34360075EA13 /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		B0614AB2211C34590075EA13 /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		B0A111402122F0E400EA900D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E5F696B85967730C7A5D0E69 /* Pods-Nimble Ninja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimble Ninja.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nimble Ninja/Pods-Nimble Ninja.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C15622210A2879008AE780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9981B13E4292DEB07D7A136 /* Pods_Nimble_Ninja.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DF2D475B168E8382BA2096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				023CCEC4FBEC28FC114B10AB /* Pods_Nimble_Ninja.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE83BA050487D6677BE064C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36B6969C99E52F5BBABD82C9 /* Pods-Nimble Ninja.debug.xcconfig */,
+				E5F696B85967730C7A5D0E69 /* Pods-Nimble Ninja.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2B0FF0021199CA900E796E2 /* Cloud Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A2B0FEFC2119998A00E796E2 /* JBCloudGenerator.swift */,
+				A2B0FEFE21199CA000E796E2 /* JBCloud.swift */,
+			);
+			path = "Cloud Generation";
+			sourceTree = "<group>";
+		};
+		A2B0FF052119F10200E796E2 /* Wall Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A2B0FF012119F0EE00E796E2 /* JBWallGenerator.swift */,
+				A2B0FF032119F0F900E796E2 /* JBWall.swift */,
+			);
+			path = "Wall Generation";
+			sourceTree = "<group>";
+		};
+		A2C1561C210A2879008AE780 = {
+			isa = PBXGroup;
+			children = (
+				A2C15627210A2879008AE780 /* Nimble Ninja */,
+				A2C15626210A2879008AE780 /* Products */,
+				8CE83BA050487D6677BE064C /* Pods */,
+				57DF2D475B168E8382BA2096 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C15626210A2879008AE780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C15625210A2879008AE780 /* Nimble Ninja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C15627210A2879008AE780 /* Nimble Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				B0A111402122F0E400EA900D /* WebViewController.swift */,
+				A2C15628210A2879008AE780 /* AppDelegate.swift */,
+				A2C1562C210A2879008AE780 /* Actions.sks */,
+				A2C1562E210A2879008AE780 /* GameScene.swift */,
+				B0614AAE211C1E8C0075EA13 /* GameOverScene.sks */,
+				B0614AAC211C1E200075EA13 /* GameOverScene.swift */,
+				B0614AB2211C34590075EA13 /* MainScene.sks */,
+				B0614AB0211C34360075EA13 /* MainScene.swift */,
+				A2CA1F69210AB2F8004327E4 /* JBMovingGround.swift */,
+				B0541F13211D27D80070282D /* GameConfig */,
+				A2B0FF052119F10200E796E2 /* Wall Generation */,
+				A2B0FF0021199CA900E796E2 /* Cloud Generation */,
+				A2603C12210C723A00009537 /* JBHero.swift */,
+				A2B0FEFA21198E3300E796E2 /* Constants.swift */,
+				A2C15630210A2879008AE780 /* GameViewController.swift */,
+				A2C15632210A2879008AE780 /* Main.storyboard */,
+				A2C15635210A287B008AE780 /* Assets.xcassets */,
+				A2C15637210A287B008AE780 /* LaunchScreen.storyboard */,
+				A2C1563A210A287B008AE780 /* Info.plist */,
+			);
+			path = "Nimble Ninja";
+			sourceTree = "<group>";
+		};
+		B0541F13211D27D80070282D /* GameConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B0541F14211D281D0070282D /* GameConfig.swift */,
+			);
+			path = GameConfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C15624210A2879008AE780 /* Nimble Ninja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C1563D210A287B008AE780 /* Build configuration list for PBXNativeTarget "Nimble Ninja" */;
+			buildPhases = (
+				66DD968833B8FD18BBBB06A1 /* [CP] Check Pods Manifest.lock */,
+				A2C15621210A2879008AE780 /* Sources */,
+				A2C15622210A2879008AE780 /* Frameworks */,
+				A2C15623210A2879008AE780 /* Resources */,
+				3C393D62FB7908F6F208FBD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nimble Ninja";
+			productName = "Nimble Ninja";
+			productReference = A2C15625210A2879008AE780 /* Nimble Ninja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C1561D210A2879008AE780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Joydeep;
+				TargetAttributes = {
+					A2C15624210A2879008AE780 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2C15620210A2879008AE780 /* Build configuration list for PBXProject "Nimble Ninja" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C1561C210A2879008AE780;
+			productRefGroup = A2C15626210A2879008AE780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C15624210A2879008AE780 /* Nimble Ninja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C15623210A2879008AE780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C15634210A2879008AE780 /* Main.storyboard in Resources */,
+				A2C15636210A287B008AE780 /* Assets.xcassets in Resources */,
+				A2C15639210A287B008AE780 /* LaunchScreen.storyboard in Resources */,
+				B0614AAF211C1E8C0075EA13 /* GameOverScene.sks in Resources */,
+				A2C1562D210A2879008AE780 /* Actions.sks in Resources */,
+				B0614AB3211C34590075EA13 /* MainScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C393D62FB7908F6F208FBD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nimble Ninja/Pods-Nimble Ninja-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nimble Ninja/Pods-Nimble Ninja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66DD968833B8FD18BBBB06A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nimble Ninja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C15621210A2879008AE780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C1562F210A2879008AE780 /* GameScene.swift in Sources */,
+				A2C15631210A2879008AE780 /* GameViewController.swift in Sources */,
+				B0614AAD211C1E200075EA13 /* GameOverScene.swift in Sources */,
+				B0541F15211D281D0070282D /* GameConfig.swift in Sources */,
+				A2B0FEFD2119998A00E796E2 /* JBCloudGenerator.swift in Sources */,
+				A2B0FEFF21199CA000E796E2 /* JBCloud.swift in Sources */,
+				A2B0FF022119F0EE00E796E2 /* JBWallGenerator.swift in Sources */,
+				A2603C13210C723A00009537 /* JBHero.swift in Sources */,
+				A2CA1F6A210AB2F8004327E4 /* JBMovingGround.swift in Sources */,
+				A2B0FF042119F0F900E796E2 /* JBWall.swift in Sources */,
+				B0614AB1211C34360075EA13 /* MainScene.swift in Sources */,
+				B0A111412122F0E500EA900D /* WebViewController.swift in Sources */,
+				A2C15629210A2879008AE780 /* AppDelegate.swift in Sources */,
+				A2B0FEFB21198E3300E796E2 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2C15632210A2879008AE780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C15633210A2879008AE780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C15637210A287B008AE780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C15638210A287B008AE780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C1563B210A287B008AE780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2C1563C210A287B008AE780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C1563E210A287B008AE780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B6969C99E52F5BBABD82C9 /* Pods-Nimble Ninja.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nimble Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joydeep.Nimble-Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2C1563F210A287B008AE780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F696B85967730C7A5D0E69 /* Pods-Nimble Ninja.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nimble Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joydeep.Nimble-Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C15620210A2879008AE780 /* Build configuration list for PBXProject "Nimble Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C1563B210A287B008AE780 /* Debug */,
+				A2C1563C210A287B008AE780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C1563D210A287B008AE780 /* Build configuration list for PBXNativeTarget "Nimble Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C1563E210A287B008AE780 /* Debug */,
+				A2C1563F210A287B008AE780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C1561D210A2879008AE780 /* Project object */;
+}

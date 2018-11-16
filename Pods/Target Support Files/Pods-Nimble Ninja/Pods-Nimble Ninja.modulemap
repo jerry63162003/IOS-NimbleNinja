@@ -1,0 +1,6 @@
+framework module Pods_Nimble_Ninja {
+  umbrella header "Pods-Nimble Ninja-umbrella.h"
+
+  export *
+  module * { export * }
+}
